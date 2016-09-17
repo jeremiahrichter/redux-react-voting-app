@@ -7,7 +7,7 @@ export function setEntries(state, entries) {
 }
 
 export function next(state) {
-    var entries = state.get('entries');
+    const entries = state.get('entries');
     return state.merge({
         vote: Map({
             pair: entries.take(2)
