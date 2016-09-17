@@ -1,5 +1,5 @@
 import {
-    List
+    List, Map
 } from 'immutable';
 
 export function setEntries(state, entries) {
